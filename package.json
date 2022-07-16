@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "start": "json-server --watch data/db.json --port 5050",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
